@@ -13,5 +13,9 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@eioluseyi/tailwind-fade"),
+    require("tailwindcss-motion"),
+    require("tailwindcss-intersect"),
+  ],
 };
