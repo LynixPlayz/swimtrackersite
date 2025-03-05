@@ -37,15 +37,15 @@ export default function Home() {
         </a>
       </div>
       <div className="h-auto w-[100%] flex-col justify-center justify-self-center pt-20 lg:w-[95%]">
-        <div className="grid w-[90%] grid-flow-row grid-cols-1 gap-5 lg:grid-cols-2">
+        <div className="grid w-[90%] grid-flow-row grid-cols-1 gap-5 justify-self-center lg:grid-cols-2">
           <Image
-            className="mr-36 w-[55%] justify-self-end rounded-[56px] shadow-2xl"
+            className="w-[55%] justify-self-center rounded-[56px] shadow-2xl lg:mr-36 lg:justify-self-end"
             src="/themespreview.png"
             width={600}
             height={600}
             alt="Themes Preview"
           />
-          <div className="align-center flex w-full flex-col justify-center gap-6 p-3">
+          <div className="align-center flex w-full flex-col justify-center gap-6 justify-self-center p-3 text-center lg:text-left">
             <h1 className="text-7xl font-bold">Modern User Inteface</h1>
             <p className="text-xl">
               SwimFast features a sleek, modern user interface with a clean
@@ -55,8 +55,10 @@ export default function Home() {
               presented in a visually appealing, easy-to-read format.{" "}
             </p>
           </div>
-          <div className="align-center ml-36 flex w-full flex-col justify-center gap-6 p-3 text-right">
-            <h1 className="justify-end text-7xl font-bold">Up-To-Date Times</h1>
+          <div className="align-center flex w-full flex-col justify-center gap-6 p-3 text-center lg:ml-36 lg:text-right">
+            <h1 className="justify-self-center text-7xl font-bold lg:justify-end">
+              Up-To-Date Times
+            </h1>
             <p className="text-xl">
               SwimFast ensures you always have the most current swim times by
               pulling data from multiple reliable sources. Whether it&apos;s
@@ -66,20 +68,20 @@ export default function Home() {
             </p>
           </div>
           <Image
-            className="w-[55%] justify-self-end rounded-[56px] shadow-2xl"
+            className="w-[55%] justify-self-center rounded-[56px] shadow-2xl lg:justify-self-end"
             src="/timespreview.png"
             width={600}
             height={600}
             alt="Times Preview"
           />
           <Image
-            className="mr-36 w-[55%] justify-self-end rounded-[56px] shadow-2xl"
+            className="w-[55%] justify-self-center rounded-[56px] shadow-2xl lg:mr-36 lg:justify-self-end"
             src="/statspreview.png"
             width={600}
             height={600}
             alt="Stats Preview"
           />
-          <div className="align-center flex w-full flex-col justify-center gap-6 p-3">
+          <div className="align-center flex w-full flex-col justify-center gap-6 p-3 text-center lg:text-left">
             <h1 className="text-7xl font-bold">Detailed Statistics</h1>
             <p className="text-xl">
               SwimFast gives you a complete overview of your performance by
@@ -90,7 +92,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <h1 className="mt-20 text-center font-serif text-8xl font-bold leading-tight">
+        <h1 className="mt-20 px-10 text-center font-serif text-8xl font-bold leading-tight">
           So, why not dive in and see the difference for yourself?
         </h1>
         <a href="appstorebadge" className="mt-10 flex justify-center">
