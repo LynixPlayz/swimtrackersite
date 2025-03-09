@@ -82,10 +82,10 @@ const TermsOfService = () => {
 
               <h2>6. Disclaimers and Limitation of Liability</h2>
               <p>
-                SwimFast is provided on an "as-is" and "as available" basis
-                without warranties of any kind. We are not responsible for any
-                losses or damages arising from the use or inability to use the
-                App.
+                SwimFast is provided on an &quot;as-is&quot; and &quot;as
+                available&quot; basis without warranties of any kind. We are not
+                responsible for any losses or damages arising from the use or
+                inability to use the App.
               </p>
 
               <h2>7. Changes to These Terms</h2>
